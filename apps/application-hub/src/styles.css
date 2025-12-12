@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Authentic Sans 60';
+  src: url('../public/authentic-sans-60.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Authentic Sans 90';
+  src: url('../public/authentic-sans-90.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Authentic Sans 130';
+  src: url('../public/authentic-sans-130.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Authentic Sans 150';
+  src: url('../public/authentic-sans-150.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-body: "Authentic Sans 60", sans-serif;
+  --font-title: "Authentic Sans 90", sans-serif;
+  --font-subheader: "Authentic Sans 130", sans-serif;
+  --font-header: "Authentic Sans 150", sans-serif;
+
+
+  --color-shark-50: #f6f7f9;
+  --color-shark-100: #eceff2;
+  --color-shark-200: #d4dbe3;
+  --color-shark-300: #aebccb;
+  --color-shark-400: #8297ae;
+  --color-shark-500: #637b94;
+  --color-shark-600: #4e637b;
+  --color-shark-700: #405064;
+  --color-shark-800: #384454;
+  --color-shark-900: #323c48;
+  --color-shark-950: #222831;
+
+  --color-mako-50: #f4f6f7;
+  --color-mako-100: #e3e8ea;
+  --color-mako-200: #cad2d7;
+  --color-mako-300: #a4b1bc;
+  --color-mako-400: #788998;
+  --color-mako-500: #5c6d7e;
+  --color-mako-600: #4f5b6b;
+  --color-mako-700: #454e59;
+  --color-mako-800: #3d444d;
+  --color-mako-900: #393e46;
+  --color-mako-950: #21252b;
+
+  --color-stonewall-50: #f4f4f2;
+  --color-stonewall-100: #e4e2dd;
+  --color-stonewall-200: #cbc6bd;
+  --color-stonewall-300: #ada497;
+  --color-stonewall-400: #948979;
+  --color-stonewall-500: #867b6c;
+  --color-stonewall-600: #73665b;
+  --color-stonewall-700: #5d524b;
+  --color-stonewall-800: #504743;
+  --color-stonewall-900: #473f3c;
+  --color-stonewall-950: #282220;
+
+  --color-stark-white-50: #f9f6f3;
+  --color-stark-white-100: #f2ece2;
+  --color-stark-white-200: #dfd0b8;
+  --color-stark-white-300: #d3bd9e;
+  --color-stark-white-400: #c19e76;
+  --color-stark-white-500: #b3875c;
+  --color-stark-white-600: #a67450;
+  --color-stark-white-700: #8a5e44;
+  --color-stark-white-800: #704d3c;
+  --color-stark-white-900: #5c4032;
+  --color-stark-white-950: #312019;
+}

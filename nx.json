@@ -38,6 +38,28 @@
       "linter": "eslint",
       "style": "css",
       "unitTestRunner": "vitest"
+    },
+    "@nx/angular:component": {
+      "style": "css",
+      "type": "component"
+    },
+    "@nx/angular:pipe": {
+      "type": "pipe"
+    },
+    "@nx/angular:directive": {
+      "type": "directive"
+    },
+    "@nx/angular:service": {
+      "type": "service"
+    },
+    "@nx/angular:guard": {
+      "type": "guard"
+    },
+    "@nx/angular:interceptor": {
+      "type": "interceptor"
+    },
+    "@nx/angular:resolver": {
+      "type": "resolver"
     }
   },
   "nxCloudId": "693afe9b5f11082318d22d46"
